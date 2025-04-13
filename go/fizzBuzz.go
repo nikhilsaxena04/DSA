@@ -20,6 +20,6 @@ func fizzbuzz() {
 	}
 }
 
-func main(){
-	fizzbuzz()
-}
+// func main(){
+// 	fizzbuzz()
+// }

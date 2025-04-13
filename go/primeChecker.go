@@ -28,6 +28,6 @@ func isPrime(max int) {
 	}
 }
 
-func main () {
-	isPrime(100)
-}
+// func main () {
+// 	isPrime(100)
+// }
