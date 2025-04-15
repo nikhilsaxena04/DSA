@@ -71,7 +71,7 @@ void explainVector(){
       
 
   // insert
-      vector<int>x(2, 100): // {100, 100}
+      vector<int>x(2, 100); // {100, 100}
       x.insert(x.begin(), 2, 200); // {200, 200, 100, 100}
 
       vector<int>copy(2, 100); // {250, 250}
@@ -107,7 +107,7 @@ void explainList(){
 
 void explainDeque(){
 
-  deque<int>dq:
+  deque<int>dq;
   dq.push_back(1); //{1}
   dq.emplace_back(2); //{1, 2}
 
@@ -153,8 +153,8 @@ void explainQueue(){
   q.emplace(7); //{1, 2, 7}
   //queue is FIFO, first in first out, so the first element added is the first element to be removed
 
-  q.back() += 5 //adds 5 to last element, {1, 2, 12}
-  q.front() += 10 //adds 10 to first element, {11, 2, 12}
+  q.back() += 5; //adds 5 to last element, {1, 2, 12}
+  q.front() += 10; //adds 10 to first element, {11, 2, 12}
   cout << q.front(); //returns first element, 11
   cout << q.back(); //returns last element, 12
 
