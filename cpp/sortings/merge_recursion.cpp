@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//divide array using low, high, mid, mid+1 internally until low==high
+//put two pointers, left(low) and right(mid+1) and push_back in a temp array
 void merge(int arr[], int low, int mid, int high){
   int temp[100];
   int index=0;
