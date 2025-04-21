@@ -3,6 +3,7 @@ using namespace std;
 
 // two pointers at low, high, we select a pivot then shift greater elements to right, smaller to left, and find pivot actual positiona and return it,
 // recursively apply recursion to left and right halves of pivot
+
 int f(int arr[], int low, int high){
   int pivot = arr[low]; //pivot is a value, don't pass it as index
   int i = low;
