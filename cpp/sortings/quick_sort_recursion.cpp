@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//divide (and conquer) algorithm
 // two pointers at low, high, we select a pivot then shift greater elements to right, smaller to left, and find pivot actual positiona and return it,
 // recursively apply recursion to left and right halves of pivot
 
