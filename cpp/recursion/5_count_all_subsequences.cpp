@@ -4,6 +4,8 @@ using namespace std;
  
 // count all subsequences with a given sum
 int f(int index, int s, int sum, int arr[], int n){
+  if(s>sum) return 0; //if sum exceeds, no need to go further, onlu do when array contains positive only
+  
   if(index == n) {
     if(s == sum) return 1; //condition satisfied
     else return 0; //condition not satisfied
